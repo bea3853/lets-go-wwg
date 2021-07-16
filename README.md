@@ -9,14 +9,11 @@ Iniciação ao Go.
 # 10/07
 
 ### Apresentação
+### Sobre o Curso
+### Introdução a Go
+### Tipos de dados básicos
+### Tipos compostos (Maps)
 
-###Sobre o Curso
-
-###Introdução a Go
-
-###Tipos de dados básicos
-
-###Tipos compostos (Maps)
 
 
 
