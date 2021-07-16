@@ -1,0 +1,4 @@
+//2) Erros de compilação nos ajudam a compreender o que precisamos consertar em nosso código. O que o erro ./prog.go:9:14: constant 150 overflows int8 nos indica?
+
+//o valor da varivel está transbordando, pois não cabe naquele tipo de declaração.
+// substituir o int8 por apenas int. 
