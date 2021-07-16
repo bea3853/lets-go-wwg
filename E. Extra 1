@@ -1,0 +1,18 @@
+#Exercício #01 
+A aplicação abaixo não compila.
+
+
+package main
+
+import ("fmt")
+
+
+func main() {
+
+	var quilometros int8
+	quilometros = 150
+
+	fmt.Println(quilometros)
+}
+
+// O problema está na declaração do tipo, se tirar o 8 ela imprime
