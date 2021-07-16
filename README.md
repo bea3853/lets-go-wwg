@@ -19,6 +19,14 @@
 
 # 17/07
 
+### Structs
+### Condicionais 
+### Laços de Repetição
+### Git
+### Funções e métodos
+
+
+
 # 24/07
 
 # 31/07
