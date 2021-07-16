@@ -1,0 +1,23 @@
+ 
+ // Exercício #01
+
+//     Utilizando a palavra reservada var declare uma variável numérica do tipo int.
+
+//     Atribua um valor a essa variável.
+
+//     Printe na tela o seu valor.
+
+//     Repita para 3 variáveis diferentes.
+
+
+ package main
+
+import (
+    "fmt"
+)
+
+var idade int = 15
+
+func main() {
+    fmt.Println(idade)
+}
