@@ -1,6 +1,6 @@
 # lets-go-wwg
 
-##Iniciação ao Go. 
+## Iniciação ao Go. 
 
 ### Curso  -  Women Who Go Curitiba
 
