@@ -1,0 +1,18 @@
+package main 
+
+import "fmt"
+
+func main (){
+
+idade := 5
+
+ if idade >= 20 {
+
+fmt. Println("maior de idade")
+return 
+
+}
+
+fmt.Println("É menor!")
+
+}
