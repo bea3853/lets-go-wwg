@@ -1,0 +1,21 @@
+package main 
+
+import "fmt"
+
+func main (){
+
+ano:= 1900
+anoatual :=2021
+
+votar := anoatual - ano
+
+
+if  votar >= 18 {
+fmt. Println("Pode votar")
+return
+}
+fmt.Println(votar)
+
+fmt.Println("não pode votar")
+}
+
