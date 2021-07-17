@@ -1,0 +1,17 @@
+package main
+
+import (
+	"fmt"
+)
+
+func main() {
+	ac := soma(2,3)
+	fmt.Println(ac)
+}
+
+
+func soma(a int, b int) int {
+	return a + b
+}
+
+// escreva uma função que some 2 números e retorne a soma
