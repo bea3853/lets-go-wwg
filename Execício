@@ -1,0 +1,15 @@
+package main
+
+import (
+	"fmt"
+)
+
+func main() {
+	var fatia = []string{"um", "dois", "tres", "quarto"}
+
+	for indice, valor := range fatia{
+	
+	fmt.Println(indice, valor)
+		
+	}
+}
