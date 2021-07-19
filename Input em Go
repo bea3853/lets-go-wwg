@@ -1,0 +1,18 @@
+package main
+ 
+import "fmt"
+ 
+func main() {
+    var nome, cargo string
+    var idade int
+    var salario float64
+    fmt.Println("Informe seu nome e sua idade:")
+    fmt.Scanln(&nome, &idade)
+    fmt.Print("Certo, agora informe seu CARGO :\n")
+    fmt.Scan(&cargo)
+    fmt.Println("E por último, digite seu salário:")
+    fmt.Scanf("%f\n", &salario)
+    fmt.Printf("Os dado informados foram:\nNome: %s\nIdade: %d\nCargo: %s\nSalário: %f", nome, idade, cargo, salario)
+}
+
+// desenhe uma aplicação que solicite, nome, cargo, salario e idade so usuário.  
