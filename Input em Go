@@ -15,4 +15,4 @@ func main() {
     fmt.Printf("Os dado informados foram:\nNome: %s\nIdade: %d\nCargo: %s\nSalário: %f", nome, idade, cargo, salario)
 }
 
-// desenhe uma aplicação que solicite, nome, cargo, salario e idade so usuário.  
+// desenhe uma aplicação que solicite, nome, cargo, salario e idade do usuário.  
