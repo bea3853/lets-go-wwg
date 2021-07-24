@@ -1,0 +1,55 @@
+package main
+
+import (
+	"fmt"
+	"math"
+)
+
+//2: criar interface
+type Forma interface {
+	calcularArea() float64
+}
+
+//1: criando is tipos
+type Quadrado struct {
+	lado float64
+}
+
+//3
+func (q Quadrado) calcularArea() float64 {
+	area := q.lado * q.lado
+	return area
+}
+
+//1:criando os tips
+type Circulo struct {
+	raio float64
+}
+
+//3
+func (c Circulo) calcularArea() float64 {
+	return math.Pi * (c.raio * c.raio)
+}
+
+//4
+
+func ReporteCalculo(forma Forma) {
+	area := forma.calcularArea()
+	fmt.Printf("o calculo da area dessa forma %f\n", area)
+}
+
+func main() {
+
+	//5
+	circulo1 := Circulo{
+		raio: 20,
+	}
+
+	quadrado1 := Quadrado{
+		lado: 13,
+	}
+
+	ReporteCalculo(circulo1)
+	ReporteCalculo(quadrado1)
+
+}
