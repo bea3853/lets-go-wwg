@@ -1,0 +1,17 @@
+package main
+
+import "fmt"
+
+var Pi = 3.1416
+
+func circulo(r float64) (area float64, perimetro float64) {
+    area = Pi * r * r
+    perimetro = 2 * Pi * r
+    return area, perimetro
+}
+
+func main() {
+    a, p := circulo(8)
+    fmt.Println("a áre é: ", a)
+    fmt.Println("perimetro é: ", p)
+}
