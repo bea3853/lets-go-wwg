@@ -1,0 +1,18 @@
+package main
+
+import "fmt"
+// Exercício #01
+//Faça um programa em que 3 variáveis recebem valores //diferentes e informa qual a variável com maior valor.
+func main() {
+	a := 5
+	b := 6
+	c := 10
+
+	if a > b && a > c {
+		fmt.Println("a é o maior, porquê é", a)
+	} else if b > a && b > c {
+		fmt.Println("b é o maior, porquê é", b)
+	} else {
+		fmt.Println("c é o maior, porquê é ", c)
+	}
+}
