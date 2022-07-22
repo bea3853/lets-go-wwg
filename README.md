@@ -9,35 +9,34 @@
 
 # 10/07
 
-### Apresentação
-### Sobre o Curso
-### Introdução a Go
-### Tipos de dados básicos
-### Tipos compostos (Maps)
+ Apresentação  Sobre o Curso
+ Introdução a Go
+ Tipos de dados básicos
+ Tipos compostos (Maps)
 
 
 
 # 17/07
 
-### Structs
-### Condicionais 
-### Laços de Repetição
-### Git
-### Funções e métodos
+ Structs
+ Condicionais 
+ Laços de Repetição
+ Git
+ Funções e métodos
 
 
 
 # 24/07
 
-### Testes
-### Métodos
-### Interfaces
-### Servidor HTTP
-### Aplicação
+ Testes
+ Métodos
+ Interfaces
+ Servidor HTTP
+ Aplicação
 
 # 31/07
 
-### Exercícios
-### Testes
+ Exercícios
+ Testes
 
 
